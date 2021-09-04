@@ -1,0 +1,240 @@
+@charset "utf-8";
+
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&family=Noto+Sans+KR:wght@300;400;500;700&family=Mr+Dafoe&display=swap');
+
+@import url("top_sss.css");/*상단영역*/
+@import url("bottom.css");/*하단영역*/
+
+
+/*reset*/
+a{
+ color:#3a3a3a;
+}
+input{
+ outline:none;
+}
+body,h1,input,button{
+ font:400 12px/1.5em "Cabin","Noto Sans KR",sans-serif,'Mr Dafoe', cursive;
+ color:#3a3a3a;
+}
+
+/*join_container*/
+#join_container{
+ width:770px;
+ height:1130px;
+ margin:170px auto;
+}
+.information{
+ float:right;
+ height:15px;
+ margin-bottom:10px;
+ font-size:14px;
+}
+.point{
+ color:red;
+}
+#join_container h2{
+ font-size:28px;
+ font-weight:700;
+ text-align:center;
+ margin-bottom:45px;
+}
+
+.join_entry{
+ margin:0 auto;
+ width:770px;
+ border-top:1px solid #999999;
+ border-bottom:1px solid #999999;
+ padding-top:25px;
+ padding-bottom:25px;
+}
+.join_entry legend{
+ display:none;
+}
+.box_i{
+ clear:both;
+ margin:5px 0;
+}
+.box_t{
+ clear:both;
+ margin:10px 0;
+}
+
+/*필수 입력 항목*/
+.join_entry label{
+ width:170px;
+ height:70px;
+ display:inline-block;
+ text-align:left;
+ line-height:70px;
+ font-size:18px;
+ font-weight:500;
+}
+.join_entry input{
+ border:1px solid #cccccc;
+ height:68px;
+ text-align:left;
+ text-indent:20px;
+ border-radius:8px;
+ display:inline-block;
+ margin-right:15px;
+ margin-bottom:10px;
+}
+.join_entry input::placeholder{
+ color:#cccccc;
+ font-size:16px;
+}
+label[for="u_tel2"]{
+ color:transparent;
+}
+#u_id, #u_pwd1, #u_pwd2, #u_id, #u_name, #u_tel1, #u_tel2{
+ width:428px;
+}/*아이디, 비밀번호, 비밀번호 확인, 이름, 휴대폰*/
+#u_date1, #u_date2, #u_date3{
+ width:130px;
+ margin-right:10px;
+}/*생년월일*/
+input.id_btn, input.tel_btn, input.tel2_btn{
+ width:150px;
+ margin-right:0px;
+}/*중복확인, 인증번호받기, 확인*/
+input.id_btn, input.tel_btn{
+ text-align:center;
+ background-color:#ffffff;
+ border-color:#fec947;
+ color:#fec947;
+ font-size:18px;
+ font-weight:500;
+ cursor:pointer;
+ text-indent:0;
+}/*중복확인, 인증번호받기*/
+input.tel2_btn{
+ text-align:center;
+ background-color:#f7f7f7;
+ border:none;
+ text-indent:0;
+ font-size:18px;
+ font-weight:500;
+ color:#a9a9a9;
+}/*확인*/
+.box_i:last-child{
+ width:100%;
+ position:relative;
+}
+input[name="gender"]{
+ display:inline-block;
+ opacity:0;
+ height:10px;
+}
+.box_i span.gen{
+ width:130px;
+ margin-right:10px;
+ border:1px solid #cccccc;
+ height:68px;
+ text-align:center;
+ border-radius:8px;
+ position:absolute;
+ color:#cccccc;
+ font-size:16px;
+ line-height:68px;
+ cursor:pointer;
+}
+.box_i span.gen1{
+ left:170px;
+ background-color:#fec947;
+ border-color:#fec947;
+ color:#3a3a3a;
+ font-size:18px;
+ font-weight:500;
+}
+.box_i span.gen2{
+ left:320px;
+ background-color:#ffffff;
+ border-color:#fec947;
+ color:#fec947;
+ font-size:18px;
+}
+.box_i span.gen3{
+ left:470px;
+ background-color:#ffffff;
+ border-color:#fec947;
+ color:#fec947;
+ font-size:18px;
+}
+
+
+/*이용약관 동의*/
+.join_info{
+ width:770px;
+ height:170px;
+ margin:30px auto;
+ border-bottom:1px solid #999999;
+}
+.join_info legend{
+ width:170px;
+ height:70px;
+ display:inline-block;
+ text-align:left;
+ font-size:18px;
+ font-weight:500;
+ float:left;
+}
+.join_info .agree{
+ width:600px;
+ height:160px;
+ padding-left:205px;
+ position:relative;
+}
+.join_info .agree li{
+ color:#a9a9a9;
+ margin-bottom:20px;
+ cursor:pointer;
+}
+.join_info .agree li:nth-child(1){
+ font-size:18px;
+ font-weight:500;
+}
+.join_info .agree li:nth-child(2),
+.join_info .agree li:nth-child(3),
+.join_info .agree li:nth-child(4){
+ font-size:16px;
+ padding-left:10px;
+}
+.join_info .agree li::before{
+ content:"";
+ position:absolute;
+ left:170px;
+ width:24px;
+ height:24px;
+ background:url(../img/join/btn_gray.png) no-repeat;
+ background-size:contain
+}
+.join_info .agree li.agree_s::before{
+ left:180px;
+}
+.agree .col1{
+ color:#cccccc;
+}
+.agree .col2{
+ color:#eea800;
+ position:absolute;
+ right:100px;
+}
+
+/*가입하기*/
+.btn input{
+ width:428px;
+ height:68px;
+ margin:0 auto;
+ border-radius:8px;
+ display:block;
+ text-align:center;
+ background-color:#fec947;
+ cursor:pointer;
+ border:none;
+ color:#3a3a3a;
+ font-size:18px;
+ font-weight:500;
+}
+

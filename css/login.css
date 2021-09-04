@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&family=Noto+Sans+KR:wght@300;400;500;700&family=Mr+Dafoe&display=swap');
+
+@import url("top_sss.css");/*상단영역*/
+@import url("bottom.css");/*하단영역*/
+
+
+/*reset*/
+a{
+ color:#3a3a3a;
+}
+input{
+ outline:none;
+}
+body,h1,input,button{
+ font:400 12px/1.5em "Cabin","Noto Sans KR",sans-serif,'Mr Dafoe', cursive;
+ color:#3a3a3a;
+}
+
+/*login_wrap*/
+#login_wrap{
+ width:1200px;
+ height:755px;
+ margin:170px auto;
+}
+#login_title h2{
+ font-size:28px;
+ font-weight:700;
+ text-align:center;
+ margin-bottom:45px;
+}/*Login*/
+#login_all{
+ margin:0 auto;
+ width:430px;
+}
+.login_user h3{
+ display:none;
+}/*회원로그인*/
+.login_user input{
+ width:428px;
+ height:68px;
+ margin:0 auto;
+ border:1px solid #cccccc;
+ border-radius:8px;
+ display:block;
+}
+.login_user .u_id input{
+ margin-bottom:10px;
+ text-align:center;
+ font-size:16px;
+}/*이메일(아이디) 입력*/
+.login_user .u_id input::placeholder{
+ color:#cccccc;
+ font-size:16px;
+}
+.login_user .u_pwd input{
+ margin-bottom:15px;
+ text-align:center;
+ font-size:16px;
+}/*비밀번호 입력*/
+.login_user .u_pwd input::placeholder{
+ color:#cccccc;
+ font-size:16px;
+}
+.login_user .login_chk{
+ float:left;
+ margin-bottom:30px;
+}/*로그인 상태유지*/
+.login_user .login_chk input{
+ width:16px;
+ height:16px;
+ display:inline-block;
+}
+.login_user .login_chk label{
+ font-size:14px;
+ color:#3a3a3a;
+ margin-left:10px;
+ padding-top:5px;
+ vertical-align:bottom;
+}
+.login_user .login_list{
+ float:right;
+}/*아이디 찾기, 비밀번호 찾기*/
+.login_user .login_list li{
+ float:left;
+ margin-right:10px;
+}
+.login_user .login_list li a{
+ font-size:14px;
+ color:#3a3a3a;
+}
+
+.login_user .login_list li:first-child{
+ margin-right:10px;
+ padding-right:10px;
+ border-right:1px solid #cccccc;
+}
+.login_user .login input{
+ clear:both;
+ text-align:center;
+ margin-bottom:10px;
+ background-color:#fec947;
+ border-color:#fec947;
+ font-size:18px;
+ font-weight:500;
+ cursor:pointer;
+}
+.login_user .join input{
+ text-align:center;
+ background-color:#ffffff;
+ border-color:#fec947;
+ color:#fec947;
+ margin-bottom:60px;
+ font-size:18px;
+ font-weight:500;
+ cursor:pointer;
+}
+.login_sns h4{
+ font-size:22px;
+ font-weight:500;
+ margin-bottom:30px;
+ text-align:center;
+ position:relative;
+}
+.login_sns h4::before{
+ content:"";
+ width:150px;
+ height:1px;
+ background-color:#cccccc;
+ position:absolute;
+ top:50%;
+ left:0;
+ transform:translate(0,-50%);
+}
+.login_sns h4::after{
+ content:"";
+ width:150px;
+ height:1px;
+ background-color:#cccccc;
+ position:absolute;
+ top:50%;
+ right:0;
+ transform:translate(0,-50%);
+}
+.login_sns .btn_wrap{
+ width:280px;
+ height:80px;
+ margin:0 auto;
+}
+.login_sns .btn_wrap li{
+ float:left;
+ margin-bottom:30px;
+}
+.login_sns .btn_wrap li input{
+ display:block;
+ width:80px;
+ height:80px;
+ margin-right:20px;
+ border:none;
+ outline:none;
+ color:transparent;
+ border-radius:50%;
+ cursor:pointer;
+}
+.login_sns .btn_wrap li:nth-child(1) input{
+ background:url(../img/login/facebook.png) no-repeat;
+}
+.login_sns .btn_wrap li:nth-child(2) input{
+ background:url(../img/login/kakao.png) no-repeat;
+}
+.login_sns .btn_wrap li:nth-child(3) input{
+ background:url(../img/login/naver.png) no-repeat;
+}
+.login_sns .btn_wrap li:last-child input{
+ margin-right:0px;
+}
+.order_chk input{
+ width:428px;
+ height:68px;
+ margin:0 auto;
+ border-radius:8px;
+ display:block;
+ text-align:center;
+ background-color:#f7f7f7;
+ cursor:pointer;
+ border:none;
+}
+.order_chk input::placeholder{
+ color:#a9a9a9;
+ font-size:18px;
+ font-weight:500;
+}

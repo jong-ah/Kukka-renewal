@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&family=Noto+Sans+KR:wght@300;400;500;700&family=Mr+Dafoe&display=swap');
+
+@import url("top_ss.css");/*상단영역*/
+@import url("bottom.css");/*하단영역*/
+
+
+/*reset*/
+a{
+ color:#3a3a3a;
+}
+input{
+ outline:none;
+}
+body,h1,input,button{
+ font:400 12px/1.5em "Cabin","Noto Sans KR",sans-serif,'Mr Dafoe', cursive;
+ color:#3a3a3a;
+}
+
+#main_banner{
+ background-image:url(../img/daily/main_img.jpg);
+}
+
+
+/*daily_flo*/
+#daily_flo{
+ clear:both;
+ width:1170px;
+ height:1520px;
+ margin:170px auto;
+ position:relative;
+}
+#daily_flo .con_tit{
+ font-size:28px;
+ font-weight:700;
+ height:40px;
+ margin-bottom:45px;
+}
+#daily_flo .con_tit span{
+ font-size:22px;
+ font-weight:500;
+ padding-left:20px;
+}
+#daily_flo .con_tit ul{
+ position:absolute;
+ right:0;
+ top:15px;
+}
+#daily_flo .con_tit ul li{
+ font-size:14px;
+ float:left;
+ margin-left:20px;
+ color:#a5a5a5;
+ font-weight:300;
+}
+#daily_flo .con_tit ul li:first-child{
+ color:#3a3a3a;
+ font-weight:500;
+ margin-left:0;
+}
+
+#daily_flo .con_item{
+ width:1170px;
+ height:425px;
+ margin-bottom:80px;
+ position:relative;
+}
+#daily_flo .flo_item{
+ width:270px;
+ height:335px;
+ position:absolute;
+ cursor:pointer;
+}
+#daily_flo .item1{
+ left:0;
+}
+#daily_flo .item2{
+ left:300px;
+}
+#daily_flo .item3{
+ right:300px;
+}
+#daily_flo .item4{
+ right:0;
+}
+.con_item .flo_item .thumnail{
+ width:270px;
+ height:335px;
+ overflow:hidden;
+}
+.con_item .flo_item .thumnail.active img{
+ transform:scale(1.05);
+ transition:all 1s;
+}
+#daily_flo .summary{
+ text-align:left;
+ line-height:2em;
+ width:270px;
+}
+#daily_flo .summary li:nth-child(1){
+ font-size:16px;
+ font-weight:500;
+ margin-top:5px;
+}
+#daily_flo .summary li:nth-child(2){
+ font-size:16px;
+ font-weight:500;
+ color:#eea800;
+ margin-bottom:15px;
+}
+#daily_flo .summary li:nth-child(3){
+ font-size:14px;
+ font-weight:300;
+ color:#a5a5a5;
+}
+#daily_flo .font_g{
+ color:#a5a5a5;
+ margin-right:10px;
+}

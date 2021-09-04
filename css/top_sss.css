@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+/*top*/
+#top_wrap{
+ width:100%;
+ min-width:1200px;
+ height:170px;
+ position:relative;
+}/*상단영역*/
+
+#top{
+ width:100%;
+ min-width:1200px;
+ height:170px;
+ border-bottom:3px solid #f7f7f7;
+}/*상단 상단이벤트바,로그인,회원가입,꽃정기구독...*/
+
+/*top_banner*/
+#top_banner{
+ width:100%;
+ min-width:1200px;
+ height:45px;
+ background-color:#3a3a3a;
+}/*상단이벤트바*/
+#top_banner_inner{
+ width:1200px;
+ height:45px;
+ margin:0 auto;
+ background-color:#3a3a3a;
+ position:relative;
+}
+#top_banner_inner p{
+ text-align:center;
+ line-height:45px;
+ background-color:#3a3a3a;
+}
+#top_banner_inner p a{
+ color:#ffc948;
+ font-weight:300;
+ font-size:14px;
+ position:absolute;
+ left:50%;
+ right:0;
+ top:0;
+ transform:translate(-50%,0);
+}/*플라워 테라피가 궁금하다면? 1월 플라워 클래스*/
+#top_banner_inner p a span{
+ font-weight:500;
+ margin-left:5px;
+ position:relative;
+}/*1월 플라워 클래스*/
+#top_banner_inner p a span::after{
+ content:"";
+ width:8px;
+ height:12px;
+ background:url(../img/top/btn_right_y.png) no-repeat center;
+ background-size:cover;
+ position:absolute;
+ right:-15px;
+ top:50%;
+ transform:translate(0,-50%);
+}
+
+/*top_user*/
+#top_back{
+ width:100%;
+ min-width:1200px;
+ height:70px;
+ background-color:#f7f7f7;
+}
+#top_user{
+ clear:both;
+ width:1170px;
+ height:70px;
+ margin:0 auto;
+ background-color:transparent;
+ position:relative;
+ z-index:10;
+}/*로고,회원가입,로그인,장바구니,검색*/
+#top_user h1{
+ position:absolute;
+ left:0;
+ top:50%;
+ transform:translate(0,-50%);
+}/*로고*/
+.user_menu{
+ float:right;
+ margin-top:20px;
+}/*회원가입,로그인,장바구니,검색*/
+.user_menu li{
+ display:inline;
+ margin-right:20px;
+ padding-right:20px;
+ border-right:1px solid rgba(0,0,0,0.2);
+}/*|*/
+.user_menu li:last-child{
+ border-right:none;
+ padding-right:0;
+}/*검색*/
+.user_menu li a{
+ color:rgba(0,0,0,0.4);
+}/*회원가입,로그인,장바구니*/
+.user_menu li:hover a{
+ color:#000000;
+}
+.user_menu li .blind{
+ font-size:0;
+ opacity:0.3;
+}/*검색*/
+.user_menu li .blind::after{
+ content:"";
+ width:25px;
+ height:25px;
+ background:url(../img/top/search.png) no-repeat center;
+ background-size:contain;
+ position:absolute;
+ right:0;
+ top:20px;
+}
+.user_menu li .blind:hover{
+ opacity:1;
+}
+
+/*main_menu*/
+#main_menu{
+ clear:both;
+ width:1200px;
+ height:55px;
+ margin:0 auto;
+ background-color:#ffffff;
+ position:relative;
+ z-index:10;
+
+}/*꽃정기구독,꽃다발...*/
+#main_menu ul{
+ width:1200px;
+ height:55px;
+}
+#main_menu ul li{
+ width:200px;
+ text-align:center;
+ line-height:55px;
+ display:block;
+ float:left;
+}
+#main_menu ul li a{
+ font-size:18px;
+ font-weight:500;
+ color:#3a3a3a;
+}
+#main_menu ul li a:hover{
+ color:#eea800;
+ border-bottom:1px solid #eea800;
+}
+
+/*top_container*/
+#top_container{
+ min-height:100vh;
+ width:100%;
+ min-width:1200px;
+}
+
+
+
+

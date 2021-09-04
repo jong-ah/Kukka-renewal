@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+#bottom{
+ clear:both;
+ width:100%;
+ min-width:1200px;
+ height:345px;
+ background-color:#3a3a3a;
+ position:relative;
+}/*하단영역*/
+
+#bottom .kukka_txt{
+ background-color:#ffffff;
+ border-top:2px solid #3a3a3a;
+ border-bottom:2px solid #3a3a3a;
+ width:100%;
+ min-width:1200px;
+ height:45px;
+ position:absolute;
+ top:0px;
+ overflow:hidden;
+}/*움직이는 kukka_txt, js구현*/
+#bottom .kukka_txt ul li{
+ line-height:45px;
+ font-size:18px;
+ font-weight:700;
+ position:absolute;
+}
+#bottom .kukka_txt li:nth-child(1){
+ left:2%;
+}
+#bottom .kukka_txt li:nth-child(2){
+ left:22%;
+}
+#bottom .kukka_txt li:nth-child(3){
+ left:42%;
+}
+#bottom .kukka_txt li:nth-child(4){
+ left:62%;
+}
+#bottom .kukka_txt li:nth-child(5){
+ left:82%;
+}
+#bottom .kukka_txt li:nth-child(6){
+ left:102%;
+}
+#bottom .kukka_txt ul li.txt_light{
+ font-weight:400;
+ color:#999999;
+}
+
+#bottom_inner{
+ color:#ffffff;
+ font-size:14px;
+ font-weight:300;
+ line-height:1.8em;
+ width:1170px;
+ position:relative;
+ margin:0 auto;
+}
+
+#bottom_r{
+ width:720px;
+ position:absolute;
+ left:0;
+ top:115px;
+}/*로고,상호명..*/
+#bottom_r address{
+ margin-top:10px;
+ font-style:normal;
+}
+#bottom_r address span{
+ margin-left:20px;
+}
+#bottom_r address span a{
+ color:#999999;
+ margin-left:-20px;
+}
+#bottom_r address span a:hover{
+ border-bottom:1px solid #999999;
+}
+#bottom_r address span::after{
+ content:"|";
+ margin:0 20px;
+}
+#bottom_r address span.add{
+ color:#999999;
+}
+#bottom_r address span.link::after {
+ content:"";
+}
+#bottom_r address span.link2{
+ margin-left:40px;
+}
+#bottom_r address span.link4::after {
+ content:"";
+}
+
+.kukka_sns a img{
+ float:left;
+ margin-right:15px;
+ margin-top:15px;
+}
+
+
+#bottom_l{
+ width:370px;
+ position:absolute;
+ right:0;
+ top:115px;
+}/*고객센터,자주묻는질문,꾸까스토리*/
+#bottom_l ul{
+ width:370px;
+ height:165px;
+}
+#bottom_l ul li{
+ height:50px;
+ font-size:16px;
+ font-weight:500;
+ padding-left:1em;
+}
+#bottom_l ul li:nth-child(1){
+ border-bottom:1px solid #999999;
+ width:370px;
+ height:65px;
+}/*고객센터*/
+#bottom_l ul li:nth-child(1) span{
+ color:#999999;
+ letter-spacing:-1px;
+ display:block;
+ font-size:14px;
+ font-weight:400;
+ margin-bottom:5px;
+}/*평일 10:00...*/
+#bottom_l ul li:nth-child(2) a{
+ line-height:50px;
+ color:#ffffff;
+ display:block;
+ width:370px;
+ height:50px;
+ position:relative;
+}/*자주묻는질문*/
+#bottom_l ul li:nth-child(2) a::after{
+ content:"";
+ width:8px;
+ height:12px;
+ background:url(../img/bottom/btn_right_w.png) no-repeat center;
+ background-size:cover;
+ position:absolute;
+ right:15px;
+ top:50%;
+ transform:translate(0,-50%);
+}
+#bottom_l ul li:nth-child(3){
+ line-height:50px;
+ width:370px;
+ height:50px;
+ background-color:#ffffff;
+}/*꾸까스토리*/
+#bottom_l ul li:nth-child(3) a{
+ display:block;
+ position:relative;
+}
+#bottom_l ul li:nth-child(3) a::after{
+ content:"";
+ width:8px;
+ height:12px;
+ background:url(../img/bottom/btn_right.png) no-repeat center;
+ background-size:cover;
+ position:absolute;
+ right:15px;
+ top:50%;
+ transform:translate(0,-50%);
+}

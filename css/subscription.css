@@ -1,0 +1,377 @@
+@charset "utf-8";
+
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&family=Noto+Sans+KR:wght@300;400;500;700&family=Mr+Dafoe&display=swap');
+
+@import url("top_s.css");/*상단영역*/
+@import url("bottom.css");/*하단영역*/
+
+
+/*reset*/
+a{
+ color:#3a3a3a;
+}
+input,button{
+ outline:none;
+ border:none;
+}
+body,h1,input,button{
+ font:400 12px/1.5em "Cabin","Noto Sans KR",sans-serif,'Mr Dafoe', cursive;
+ color:#3a3a3a;
+}
+
+/*how_it*/
+#how_it{
+ clear:both;
+ width:1170px;
+ height:845px;
+ margin:170px auto;
+}
+#how_it .con_tit{
+ font-size:28px;
+ font-weight:700;
+ margin-bottom:45px;
+}
+#how_it .con_tit span{
+ font-size:22px;
+ font-weight:500;
+ padding-left:20px;
+}
+#how_it #con_how_step{
+ width:1170px;
+ height:385px;
+ margin-bottom:60px;
+}
+#con_how_step ol li{
+ width:268px;
+ height:310px;
+ float:left;
+ padding-right:30px;
+ position:relative;
+ background:url(../img/subscription/sub_1.jpg) no-repeat center 20px;
+ margin-bottom:20px;
+}
+#con_how_step ol li:nth-child(2){
+ background-image:url(../img/subscription/sub_2.jpg);
+ background-position:45px 20px;
+}
+#con_how_step ol li:nth-child(3){
+ background-image:url(../img/subscription/sub_3.jpg);
+ background-position:40px 20px;
+}
+#con_how_step ol li:last-child{
+ padding-right:0;
+ background-image:url(../img/subscription/sub_4.jpg);
+}
+#con_how_step ol li::after{
+ content:"";
+ position:absolute;
+ right:0;
+ top:0;
+ width:30px;
+ height:309px;
+ background:url(../img/subscription/line.png) no-repeat;
+}
+#con_how_step ol li:last-child::after{
+ width:0;
+}
+#con_how_step dl{
+ position:absolute;
+ bottom:35px;
+ left:80px;
+}
+#con_how_step dl:last-child{
+ left:60px;
+}
+#con_how_step dt{
+ color:#f0b542;
+ font-weight:500;
+ text-align:center;
+ font-size:16px;
+ margin-bottom:10px;
+}
+#con_how_step dd{
+	font-size:16px;
+ text-align:center;
+}
+#con_how_step dd span{
+	display:block;
+ margin-top:10px;
+}
+#con_how_step p{
+ clear:both;
+ width:1170px;
+ height:60px;
+ background-color:#f7f7f7;
+ color:#a5a5a5;
+ font-size:16px;
+ text-align:center;
+ line-height:60px;
+}
+
+#how_it #con_how_cal{
+ clear:both;
+ width:1170px;
+ height:335px;
+ background:url(../img/subscription/sub_cal.png) no-repeat;
+}
+#con_how_cal div{
+ width:470px;
+ height:210px;
+ padding-left:110px;
+ padding-top:60px;
+ padding-bottom:60px;
+}
+#con_how_cal p:first-child{
+ font-size:22px;
+ margin-bottom:70px;
+}
+#con_how_cal p span{
+ display:block;
+ line-height:2em;
+}
+#con_how_cal p:first-child span:nth-child(1){
+ margin-top:5px;
+}
+#con_how_cal p span strong{
+ border-bottom:2px solid #ffc948;
+ font-size:28px;
+ font-weight:bold;
+ margin-right:10px;
+}
+#con_how_cal p:last-child{
+ color:#ffc948;
+ font-size:16px;
+}
+
+/*select_size*/
+#select_size{
+ clear:both;
+ width:100%;
+ min-width:1200px;
+ height:2080px;
+ margin:0 auto 170px auto;
+ overflow:hidden;
+}
+#select_size .con_tit{
+ font-size:28px;
+ font-weight:700;
+ height:40px;
+ width:1170px;
+ margin:0 auto 45px auto;
+}
+#select_size .con_tit span{
+ font-size:22px;
+ font-weight:500;
+ padding-left:20px;
+}
+#select_size #con_size{
+ width:100%;
+ min-width:1200px;
+ position:relative;
+}
+.size_item dt{
+ width:100%;
+ min-width:1200px;
+ height:500px;
+}
+.size_item dd{
+ width:1170px;
+ margin:0 auto;
+ display:block;;
+ z-index:2;
+ position:absolute;
+ left:375px;
+}
+.size_item dd li:nth-child(1){
+ font-size:28px;
+ font-weight:bold;
+ margin-bottom:25px;
+ cursor:pointer
+}
+.size_item dd li:nth-child(2){
+ font-size:16px;
+ margin-bottom:100px;
+}
+.size_item dd li:nth-child(2) span{
+ display:block;
+ margin-top:10px;
+}
+.size_item dd li:nth-child(3){
+ font-size:22px;
+ font-weight:500;
+}
+.size_item dd li:nth-child(3) span{
+ width:75px;
+ height:25px;
+ display:inline-block;
+ font-size:14px;
+ line-height:25px;
+ text-align:center;
+ background-color:#ffc948;
+ border-radius:20px;
+ margin-left:10px;
+ margin-bottom:5px;
+}
+.size_s dd{
+ top:125px;
+}
+.size_m dd{
+ top:625px;
+}
+.size_l dd{
+ top:1125px;
+}
+.size_xl dd{
+ top:1625px;
+}
+
+/*how_to*/
+#how_to{
+ clear:both;
+ width:100%;
+ min-width:1170px;
+ height:535px;
+ margin:0 auto 170px auto;
+}
+#how_to .con_tit{
+ font-size:28px;
+ font-weight:700;
+ height:40px;
+ width:1170px;
+ margin:0 auto 45px auto;
+}
+#how_to .con_tit span{
+ font-size:22px;
+ font-weight:500;
+ padding-left:20px;
+}
+#how_to #con_step{
+ width:100%;
+ min-width:1200px;
+ height:450px;
+}
+.step_l{
+ float:left;
+ width:50%;
+ height:450px;
+}
+.step_r{
+ float:right;
+ width:50%;
+ height:450px;
+ background:url(../img/subscription/step_1_bg.jpg) no-repeat;
+ color:#ffffff;
+ position:relative;
+ overflow:hidden;
+}
+.step_r ol{
+ width:580px;
+ height:360px;
+ margin-left:90px;
+ margin-top:85px;
+}
+.step_r ol li h3{
+ font-size:16px;
+ color:#ffffff;
+ font-weight:bold;
+ margin-bottom:45px;
+}
+.step_r ol li h3 span{
+ display:block;
+ font-size:28px;
+ margin-top:20px;
+}
+.step_r ol li p{
+ font-size:14px;
+}
+.step_r ol li p span{
+ display:block;
+ margin-top:5px;
+}
+.step_r ol li:first-child{
+ margin-bottom:120px;
+}
+.step_r ol li:last-child{
+ opacity:0.5;
+}
+
+/*qna*/
+#qna{
+ clear:both;
+ width:100%;
+ min-width:1200px;
+ height:540px;
+ margin:0 auto 170px auto;
+ overflow:hidden;
+}
+#qna .con_tit{
+ font-size:28px;
+ font-weight:700;
+ height:40px;
+ width:1170px;
+ margin:0 auto 45px auto;
+}
+#qna .con_tit span{
+ font-size:22px;
+ font-weight:500;
+ padding-left:20px;
+}
+#qna #con_answer{
+ width:100%;
+ min-width:1200px;
+ height:450px;
+}
+#con_answer ul{
+ width:1170px;
+ height:335px;
+ margin:0 auto 60px auto;
+}
+#con_answer ul li{
+ width:410px;
+ height:285px;
+ background-color:#f7f7f7;
+ margin-right:30px;
+ float:left;
+ position:relative;
+ padding-top:50px;
+ padding-left:80px;
+ padding-right:80px;
+}
+#con_answer ul li h3{
+ font-size:16px;
+ font-weight:500;
+ padding-bottom:10px;
+ margin-bottom:45px;
+ width:295px;
+ border-bottom:2px solid #ffc948;
+}
+#con_answer ul li:nth-child(2) h3{
+ width:400px;
+}
+#con_answer ul li p{
+ font-size:22px;
+ line-height:1.5em;
+}
+#con_answer ul li:last-child{
+ margin-right:0;
+}
+#con_answer button{
+ clear:both;
+ width:230px;
+ height:60px;
+ background-color:#3a3a3a;
+ color:#ffffff;
+ margin:0 auto;
+ display:block;
+ font-size:18px;
+ font-weight:500;
+ line-height:60px;
+ cursor:pointer;
+}
+#con_answer button:hover{
+ cursor:pointer;
+ color:#3a3a3a;
+ font-weight:700;
+ background-color:#ffc948;
+}

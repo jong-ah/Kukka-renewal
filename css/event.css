@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&family=Noto+Sans+KR:wght@300;400;500;700&family=Mr+Dafoe&display=swap');
+
+@import url("top_sss.css");/*상단영역*/
+@import url("bottom.css");/*하단영역*/
+
+
+/*reset*/
+a{
+ color:#3a3a3a;
+}
+input{
+ outline:none;
+}
+body,h1,h2,h3,input,button{
+ font:400 12px/1.5em "Cabin","Noto Sans KR",sans-serif,'Mr Dafoe', cursive;
+ color:#3a3a3a;
+}
+
+/*event_all*/
+#event_all{
+ width:1170px;
+ height:730px;
+ margin:170px auto;
+}
+#event_all h2{
+ display:none;
+}
+#event_all li{
+ width:1020px;
+ height:175px;
+ background-color:#eeeeee;
+ margin-bottom:30px;
+ padding-left:150px;
+ padding-top:50px;
+ cursor:pointer;
+}
+#event_all li:nth-child(1){
+ background:url(../img/event/event_b1.jpg) no-repeat;
+}
+#event_all li:nth-child(2){
+ background:url(../img/event/event_b2.jpg) no-repeat;
+}
+#event_all li:nth-child(3){
+ background:url(../img/event/event_b3.jpg) no-repeat;
+}
+#event_all li h3{
+ font-size:26px;
+}
+#event_all li h3 span{
+ display:block;
+ font-weight:600;
+}
+#event_all li p{
+ font-size:14px;
+ padding-top:20px;
+}
