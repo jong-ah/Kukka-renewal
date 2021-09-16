@@ -1,4 +1,4 @@
-# 💐 Kukka-renewal
+# 💐 Kukka renewal
 
 > 그 시즌 가장 예쁜 꽃을 받아보는 꽃 정기구독, kukka renewal
 
