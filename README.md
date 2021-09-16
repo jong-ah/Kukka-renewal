@@ -1,8 +1,8 @@
-# Kukka-renewal
+# 💐 Kukka-renewal
 
 > 그 시즌 가장 예쁜 꽃을 받아보는 꽃 정기구독, kukka renewal
 
-![project_intro](https://user-images.githubusercontent.com/81145387/132236419-95f3fd6f-a493-4622-a755-0c104ef5952f.gif)
+![project intro](https://user-images.githubusercontent.com/81145387/133638419-e68a9f9f-4883-4d9c-8f7a-c188629aab7e.gif)
 
 <br/>
 
@@ -12,9 +12,9 @@
 
 # 🌟 Renewal Feature
 
-- 마크업 오류 수정 및 웹 접근성에 준수한 웹사이트를 제작합니다.
-- 메뉴 정리하여 이용하기 편리하게 합니다.
-- 그리드 시스템에 맞춰 메인 영역을 추가합니다.
+- 넓은 메인 배너 영역으로 임팩트 UP!
+- 내용 정리로 한 눈에 볼 수 있게 브랜드 스토리 정리
+- 고객이 원하는 상품 순으로 볼 수 있게 상품 리스트 정리
 
 <br/>
 
