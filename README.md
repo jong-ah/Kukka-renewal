@@ -6,7 +6,7 @@
 
 <br/>
 
-### [👉 kukka renewal 보러가기👈](https://jong-ah.github.io/Kukka-renewal/
+### [👉 kukka renewal 보러가기👈](https://jong-ah.github.io/Kukka-renewal/)
 
 <br/>
 
